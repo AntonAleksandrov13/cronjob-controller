@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: cronjob-controller
 repo: anton-test.kubebuilder.io/cronjob-controller
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: anton-test.kubebuilder.io
+  group: batch
+  kind: CronJob
+  path: anton-test.kubebuilder.io/cronjob-controller/api/v1
+  version: v1
 version: "3"
