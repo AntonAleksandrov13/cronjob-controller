@@ -1,0 +1,6 @@
+domain: anton-test.kubebuilder.io
+layout:
+- go.kubebuilder.io/v3
+projectName: cronjob-controller
+repo: anton-test.kubebuilder.io/cronjob-controller
+version: "3"
